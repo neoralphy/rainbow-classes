@@ -8,26 +8,26 @@ Instead of relying only on file names, each class gets a small color badge deriv
 
 ## Features
 
-• deterministic class color hashing  
-• tab icon color badges  
-• project tree badges  
-• multiple palettes  
-• works with PHP classes, interfaces, traits and enums  
+• deterministic class color hashing
+• tab icon color badges
+• project tree badges
+• multiple palettes
+• works with PHP classes, interfaces, traits and enums
 
 ## Palettes
 
 Rainbow Classes includes several color palettes:
 
-Default  
+Default
 Balanced colors designed for everyday use.
 
-Pastel  
+Pastel
 Soft but still visible colors for a calmer UI.
 
-High Contrast  
+High Contrast
 Strong colors for maximum readability.
 
-Synthwave  
+Synthwave
 Retro neon palette inspired by synthwave aesthetics.
 
 ## How it works
@@ -36,9 +36,9 @@ Each class receives a color derived from a deterministic hash of its fully quali
 
 This means:
 
-• the same class always gets the same color  
-• colors remain stable across sessions  
-• no configuration is required  
+• the same class always gets the same color
+• colors remain stable across sessions
+• no configuration is required
 
 ## Supported languages
 
@@ -54,8 +54,8 @@ Settings → Tools → Rainbow Classes
 
 Options include:
 
-• enable / disable markers  
-• palette selection  
+• enable / disable markers
+• palette selection
 
 ## Screenshots
 

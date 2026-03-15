@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# IntelliJ Platform plugin tooling
+.intellijPlatform/
+
+# OS
+.DS_Store
+
+# Serena
+.serena/

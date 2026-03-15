@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>com.github.rainbowclasses</id>
+    <name>Rainbow Classes</name>
+    <vendor>Rainbow Classes</vendor>
+    <description>Deterministic visual identity for PHP classes — color stripe in the gutter and colored badge on the file icon.</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <!-- Colored stripe in the gutter on the class declaration line -->
+        <codeInsight.lineMarkerProvider
+                language="PHP"
+                implementationClass="rainbowclasses.RainbowGutterProvider"/>
+
+        <!-- Colored badge overlaid on the PHP file icon in tabs, tree, and recent files -->
+        <fileIconProvider
+                implementation="rainbowclasses.RainbowFileIconProvider"/>
+
+        <!-- Persistent settings -->
+        <applicationService
+                serviceImplementation="rainbowclasses.RainbowClassesSettings"/>
+
+        <!-- Settings page: Settings → Tools → Rainbow Classes -->
+        <applicationConfigurable
+                parentId="tools"
+                instance="rainbowclasses.RainbowClassesConfigurable"
+                id="com.github.rainbowclasses.settings"
+                displayName="Rainbow Classes"/>
+
+    </extensions>
+
+</idea-plugin>
