@@ -1,8 +1,25 @@
 <idea-plugin>
     <id>com.github.rainbowclasses</id>
     <name>Rainbow Classes</name>
-    <vendor>Rainbow Classes</vendor>
-    <description>Deterministic visual identity for PHP classes — color stripe in the gutter and colored badge on the file icon.</description>
+    <vendor>neoralphy</vendor>
+    <description><![CDATA[
+        <p>Rainbow Classes adds a small deterministic color marker to every PHP class, interface, trait, and enum,
+        making it easier to navigate large codebases with many open files.</p>
+
+        <b>Features</b>
+        <ul>
+            <li>Colored badge overlaid on file icons in tabs and the project tree</li>
+            <li>Colored stripe in the editor gutter on the class declaration line</li>
+            <li>Deterministic colors derived from the fully qualified class name — consistent across sessions</li>
+            <li>Four palettes: Default, Pastel, High Contrast, Synthwave</li>
+            <li>Live palette reload — no IDE restart required</li>
+            <li>Original IntelliJ icons are preserved; only a small badge is added</li>
+        </ul>
+
+        <b>Why use it?</b>
+        <p>When many files are open, tabs are hard to tell apart by name alone.
+        Rainbow Classes gives each class a unique visual fingerprint, reducing the time spent searching for the right tab.</p>
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.jetbrains.php</depends>
